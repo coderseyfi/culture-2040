@@ -40,7 +40,7 @@ export default function DocFilterBar({ archive }) {
       <button
         type="button"
         onClick={toggleSheet}
-        className="mb-3 hidden w-full cursor-pointer items-center justify-center gap-[9px] rounded-[10px] border border-hair-20 bg-white p-[13px] font-sans text-[14.5px] font-semibold text-ink to-720:inline-flex"
+        className="mb-3 hidden w-full cursor-pointer items-center justify-center gap-[9px] rounded-[10px] border border-hair-20 bg-white p-[13px] font-sans text-[14.5px] font-semibold text-ink to-720:!inline-flex"
       >
         <icons.filter size={16} />
         {t('documents.filters')}
